@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #f8f8f8;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Admin Dashboard - Registered Interns</h1>
+  </div>
+
+  <div class="container">
+    <table id="internTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>Age</th>
+          <th>Degree</th>
+          <th>Graduation Year</th>
+          <th>Contact</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Intern rows will be added here by JS -->
+      </tbody>
+    </table>
+  </div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
